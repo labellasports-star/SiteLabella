@@ -1,0 +1,38 @@
+---
+import { contact } from '../config/contact';
+---
+
+<footer class="site-footer">
+  <div class="container footer__top">
+    <a class="brand brand--footer" href="/" aria-label="Labella Sports — página inicial">
+      <img class="brand__logo" src="/images/brand/logotipo.png" alt="Labella Sports" width="5872" height="5875" />
+    </a>
+    <div class="footer__copy">
+      <p>Uniformes esportivos personalizados para vestir a identidade do seu time.</p>
+      <small>R. Balneário São José, 1020 - Balneário São José</small>
+    </div>
+    <nav class="footer__nav" aria-label="Navegação do rodapé">
+      <a href="/#inicio">Início</a>
+      <a href="/#modelos">Modelos</a>
+      <a href="/#produtos">Produtos</a>
+      <a href="/#como-funciona">Como funciona</a>
+      <a href="/#contato">Contato</a>
+    </nav>
+    <div class="footer__contact">
+      <a href={contact.mapsUrl} target="_blank" rel="noreferrer">Como chegar <span aria-hidden="true">↗</span></a>
+      <a href={`${contact.whatsappUrl}?text=${encodeURIComponent('Olá! Gostaria de entrar em contato com a Labella Sports.')}`} target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+      <a href={contact.instagramUrl} target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+      <a href={contact.emailUrl}>E-mail <span aria-hidden="true">↗</span></a>
+      <a href={contact.phoneUrl}>{contact.phoneDisplay}</a>
+      <a href={contact.emailUrl}>{contact.email}</a>
+    </div>
+    <button class="button button--red" type="button" data-quote data-quote-message="Olá! Gostaria de solicitar um orçamento de uniformes personalizados com a Labella Sports.">Solicitar orçamento <span aria-hidden="true">↗</span></button>
+  </div>
+  <div class="container footer__bottom">
+    <p>© LABELLA SPORTS. Todos os direitos reservados.</p>
+    <div class="footer__links">
+      <a href="/politica-de-privacidade">Política de Privacidade</a>
+      <a href="/termos-de-uso">Termos de Uso</a>
+    </div>
+  </div>
+</footer>

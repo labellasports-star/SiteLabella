@@ -1,0 +1,28 @@
+---
+import type { Product } from '../data/catalog';
+
+interface Props {
+  product: Product;
+  index: number;
+}
+
+const { product, index } = Astro.props;
+const visualCode = String(index + 1).padStart(2, '0');
+const summary = product.specifications?.slice(0, 2).join(' · ') ?? product.conditions?.[0] ?? 'Informações do catálogo oficial';
+---
+
+<article class={`product-card product-card--${product.family}`} data-categories={product.categories.join(' ')} data-product-card>
+  <div class:list={['product-card__visual', { 'product-card__visual--photo': product.image }]} aria-label={product.image ? `Foto oficial do modelo ${product.name}` : `Espaço reservado para a foto oficial do modelo ${product.name}`} role="img">
+    {product.image ? <img src={product.image} alt={`Uniforme ${product.name}`} loading="lazy" width="3047" height="3700" /> : <><span class="product-card__index">{visualCode}</span><span class="product-card__line product-card__line--one"></span><span class="product-card__line product-card__line--two"></span><span class="product-card__placeholder">Foto oficial<br />não disponível</span></>}
+  </div>
+  <div class="product-card__body">
+    <div class="product-card__meta"><span>{product.categoryLabel}</span><span class="product-card__sizes">{product.sizes ?? 'Consulte condições'}</span></div>
+    <h3>{product.name}</h3>
+    <p class="product-card__summary">{summary}</p>
+    <div class="product-card__price">{product.priceDisplay}</div>
+    <div class="product-card__actions">
+      <button type="button" class="text-button" data-product-detail={product.id}>Ver detalhes <span aria-hidden="true">→</span></button>
+      <button type="button" class="icon-button" aria-label={`Solicitar orçamento para ${product.name}`} data-quote data-product-id={product.id}><span aria-hidden="true">↗</span></button>
+    </div>
+  </div>
+</article>

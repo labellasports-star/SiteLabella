@@ -1,0 +1,19 @@
+{
+  "name": "labela-sports",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 3000",
+    "build": "astro check && astro build",
+    "check": "astro check",
+    "preview": "astro preview --host 0.0.0.0 --port 3000"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "astro": "^5.9.2",
+    "sharp": "^0.35.5",
+    "typescript": "^5.8.3"
+  }
+}

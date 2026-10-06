@@ -1,0 +1,910 @@
+Crie um site completo, profissional, moderno e comercial para a empresa brasileira LABELA SPORTS, especializada em CONFECÇÃO DE UNIFORMES ESPORTIVOS PERSONALIZADOS.
+
+IMPORTANTE:
+Este site deve parecer uma empresa real, sólida e profissional, e NÃO um site genérico criado por inteligência artificial.
+
+A identidade visual deve ser baseada EXCLUSIVAMENTE na logomarca LABELA SPORTS que foi enviada ao projeto.
+
+Use como referência de experiência e organização o site:
+https://kingsports.com.br/catalogo
+
+A referência serve apenas para inspiração de estrutura, navegação, organização de catálogo, apresentação de produtos, filtros/categorias, hierarquia e experiência do usuário.
+
+NÃO COPIAR:
+- identidade visual da King Sports
+- textos
+- layout idêntico
+- imagens
+- elementos proprietários
+- nomes de seções exatamente iguais
+- qualquer aparência que faça parecer uma cópia
+
+Criar uma identidade própria e premium para a LABELA SPORTS.
+
+==================================================
+IDENTIDADE VISUAL
+==================================================
+
+Paleta principal:
+
+PRETO:
+#000000
+
+BRANCO:
+#FFFFFF
+
+VERMELHO PRINCIPAL:
+#CC0014
+
+Utilizar principalmente:
+- fundos brancos
+- textos pretos
+- detalhes vermelhos
+- botões de ação em vermelho
+- pequenos elementos gráficos vermelhos
+- linhas e divisores discretos em vermelho
+- preto para cabeçalho, rodapé e algumas seções de impacto
+
+A estética deve ser:
+- esportiva
+- premium
+- profissional
+- moderna
+- limpa
+- forte
+- elegante
+- intuitiva
+
+Evitar:
+- excesso de glow
+- excesso de gradientes
+- neon exagerado
+- 3D desnecessário
+- texturas excessivas
+- elementos futuristas genéricos
+- aparência de template
+- aparência de site feito por IA
+- excesso de animações
+
+Usar tipografia moderna, forte e esportiva, mas com excelente legibilidade.
+
+==================================================
+OBJETIVO DO SITE
+==================================================
+
+O principal objetivo é apresentar os produtos da LABELA SPORTS e transformar visitantes em pedidos de orçamento.
+
+O usuário deve conseguir:
+
+1. conhecer a empresa
+2. visualizar os modelos
+3. conhecer preços
+4. consultar especificações
+5. consultar tamanhos
+6. montar uma combinação de uniforme
+7. solicitar orçamento
+8. entrar em contato facilmente pelo WhatsApp
+
+O site NÃO deve funcionar como uma loja virtual tradicional com checkout.
+
+O foco é:
+CATÁLOGO + APRESENTAÇÃO + ORÇAMENTO.
+
+==================================================
+ESTRUTURA PRINCIPAL
+==================================================
+
+Criar uma navegação superior fixa e limpa.
+
+HEADER:
+
+Logo LABELA SPORTS no lado esquerdo.
+
+Menu:
+
+INÍCIO
+MODELOS
+PRODUTOS
+MEDIDAS
+COMO FUNCIONA
+SOBRE
+CONTATO
+
+Botão de destaque no lado direito:
+
+SOLICITAR ORÇAMENTO
+
+O botão deve ser vermelho.
+
+No celular:
+- menu hamburger
+- logo
+- botão de orçamento/WhatsApp
+
+==================================================
+HERO / PRIMEIRA SEÇÃO
+==================================================
+
+Criar uma primeira seção extremamente impactante.
+
+Layout moderno de marca esportiva profissional.
+
+Usar uma imagem grande de uniforme esportivo ou atleta vestindo uniforme.
+
+Não utilizar imagens com aparência artificial ou excessivamente geradas por IA.
+
+Título:
+
+"UNIFORMES ESPORTIVOS COM A IDENTIDADE DO SEU TIME"
+
+Subtítulo:
+
+"Modelos personalizados para equipes, projetos, empresas e quem quer vestir sua identidade dentro e fora de campo."
+
+CTA principal:
+
+"SOLICITAR ORÇAMENTO"
+
+CTA secundário:
+
+"VER MODELOS"
+
+Pequena frase complementar:
+
+"PERSONALIZE. REPRESENTE. VISTA SUA IDENTIDADE."
+
+Adicionar pequenos elementos visuais em vermelho para reforçar a identidade da marca.
+
+O hero deve transmitir imediatamente:
+QUALIDADE + ESPORTE + PERSONALIZAÇÃO + PROFISSIONALISMO.
+
+==================================================
+SEÇÃO DE DESTAQUE
+==================================================
+
+Criar uma seção curta logo abaixo do Hero com três ou quatro diferenciais.
+
+Exemplo:
+
+PERSONALIZAÇÃO
+Seu uniforme com as cores, escudo, nome e identidade do seu time.
+
+DIVERSIDADE DE MODELOS
+Diferentes modelagens para diferentes estilos e necessidades.
+
+QUALIDADE
+Peças esportivas pensadas para conforto, identidade e desempenho.
+
+ATENDIMENTO
+Atendimento para orientar o cliente na escolha do uniforme.
+
+Não inventar certificações, números de clientes, anos de mercado ou outras informações que não foram fornecidas.
+
+==================================================
+CATÁLOGO / MODELOS
+==================================================
+
+Esta deve ser uma das principais partes do site.
+
+Criar uma apresentação visual dos produtos inspirada em catálogos profissionais.
+
+Adicionar título:
+
+"ESCOLHA SEU MODELO"
+
+Subtítulo:
+
+"Confira nossas modelagens e encontre a peça ideal para o seu projeto."
+
+Criar filtros/categorias simples e intuitivos.
+
+Categorias sugeridas:
+
+CAMISAS
+FEMININO
+REGATAS
+MANGA LONGA
+CALÇÕES
+ACESSÓRIOS
+
+Também incluir:
+
+TODOS
+
+Cada produto deve aparecer em um card profissional contendo:
+
+- imagem
+- nome do modelo
+- categoria
+- preço
+- tamanho disponível
+- resumo das especificações
+- botão "VER DETALHES"
+- botão "SOLICITAR ORÇAMENTO"
+
+Não exagerar na quantidade de informação dentro do card.
+
+O card deve ser visualmente limpo.
+
+==================================================
+PRODUTOS DO CATÁLOGO LABELA SPORTS
+==================================================
+
+Utilizar os produtos e informações abaixo como conteúdo inicial.
+
+IMPORTANTE:
+Esses dados devem ser tratados como informações oficiais do catálogo fornecido.
+
+Não inventar novos produtos, preços ou características.
+
+--------------------------------------
+CLASSIC
+--------------------------------------
+
+Preço:
+R$ 42,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry fit, gola redonda, escudo sublimado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+PRIME
+--------------------------------------
+
+Preço:
+R$ 42,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry fit, gola em V, escudo sublimado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+RAGLAN GOLA V
+--------------------------------------
+
+Preço:
+R$ 52,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry texturizado, gola V, gola e punho em ribana, escudo sublimado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+VINTAGE
+--------------------------------------
+
+Preço:
+R$ 93,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry texturizado, acabamento de gola e punho em ribana, com opção de escudo bordado ou em TPU.
+
+--------------------------------------
+POLO
+--------------------------------------
+
+Preço:
+R$ 57,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry sport favo, abertura com vista embutida e botões, gola e punho em ribana, conforto e estilo para o dia a dia.
+
+Escudo sublimado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+POLO FEMININA
+--------------------------------------
+
+Preço:
+R$ 57,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry sport favo, abertura com vista embutida e botões, gola e punho em ribana, conforto e estilo para o dia a dia.
+
+Escudo sublimado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+REGATA CONFORT
+--------------------------------------
+
+Preço:
+R$ 47,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry fit, viés na cava e gola, opção de escudo sublimado ou bordado.
+
+--------------------------------------
+VARSITY
+--------------------------------------
+
+Preço:
+R$ 56,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry texturizado, colmeia ribana na cava e gola, opção de escudo sublimado ou bordado.
+
+--------------------------------------
+RAGLAN MANGA LONGA
+--------------------------------------
+
+Preço:
+R$ 82,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Gola dry, logo sublimado, tecido dry UV com proteção contra raios UVA e UVB.
+
+--------------------------------------
+REGATA CONFORT FEMININA
+--------------------------------------
+
+Preço:
+R$ 47,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry fit, viés na cava e gola, opção de escudo sublimado ou bordado.
+
+--------------------------------------
+BABY LOOK
+--------------------------------------
+
+Preço:
+R$ 47,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido dry, gola em DRY, escudo sublimado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+CAMISA DE ALGODÃO
+--------------------------------------
+
+Preço:
+R$ 49,90 cada
+
+Tamanho:
+P ao XG
+
+Também apresentar:
+
+R$ 57,90 cada
+
+Tamanhos:
+X1 ao X3
+
+Especificações:
+Tecido algodão penteado, gola redonda, estampas digitais (DTF).
+
+--------------------------------------
+CALÇÃO DE JOGO
+--------------------------------------
+
+Preço:
+R$ 37,90 cada
+
+Tamanhos:
+P ao X4
+
+Especificações:
+Tecido DRY, ultra leve, secagem rápida, elástico e cordão de regulagem interno, opção de escudo sublimado ou bordado.
+
+Observação:
+Escudo bordado aumenta o valor.
+
+--------------------------------------
+CALÇÃO DE JOGO FEMININO
+--------------------------------------
+
+Preço:
+R$ 31,90 cada
+
+Tamanhos:
+P ao X4
+
+Usar as informações visuais e textuais presentes no catálogo fornecido para a apresentação deste produto.
+
+--------------------------------------
+MEIÃO
+--------------------------------------
+
+Preço:
+R$ 26,90
+
+Unidade comercial:
+Par de meiões.
+
+--------------------------------------
+MEIA
+--------------------------------------
+
+Preço:
+R$ 9,99
+
+Unidade comercial:
+Par de meias.
+
+--------------------------------------
+BONÉS
+--------------------------------------
+
+Preço:
+R$ 44,00 cada
+
+Condição:
+Até 3 bordados na frente, lado ou traseira.
+
+Preço válido para compras a partir de 12 unidades.
+
+Trabalhar em múltiplos de 6 unidades:
+12, 18, 24, 30 etc.
+
+Observação:
+Com bordado A o preço aumenta.
+
+==================================================
+SEÇÃO "MONTE SEU UNIFORME"
+==================================================
+
+Criar uma seção visual e interativa inspirada na composição existente no catálogo da Labela Sports.
+
+Título:
+
+"MONTE SEU UNIFORME"
+
+Subtítulo:
+
+"Escolha as peças que combinam com o seu time."
+
+Criar três etapas:
+
+1. CAMISA
+Escolher a camisa/modelagem.
+
+2. CALÇÃO
+Escolher o calção.
+
+3. MEIÃO
+Escolher o meião.
+
+Mostrar o conceito:
+
+VALOR TOTAL = CAMISA + CALÇÃO + MEIÃO
+
+A interação pode funcionar como um pequeno configurador visual.
+
+O usuário seleciona:
+- modelo da camisa
+- modelo do calção
+- meião
+
+E o site mostra a soma.
+
+IMPORTANTE:
+Não criar lógica de pagamento.
+O resultado deve terminar com:
+
+"SOLICITAR ORÇAMENTO"
+
+Ao clicar, abrir o contato/WhatsApp com uma mensagem pré-preenchida contendo os produtos selecionados.
+
+Usar placeholder para o número de WhatsApp caso o número real ainda não esteja configurado.
+
+==================================================
+SEÇÃO DE DETALHES DOS PRODUTOS
+==================================================
+
+Cada produto deve abrir uma página ou modal detalhado.
+
+Mostrar:
+
+- foto grande
+- nome
+- preço
+- tamanhos
+- especificações
+- opções de escudo
+- observações
+- botão SOLICITAR ORÇAMENTO
+
+Criar layout visual inspirado em uma ficha de produto premium.
+
+==================================================
+MEDIDAS
+==================================================
+
+Criar uma página/seção chamada:
+
+"GUIA DE MEDIDAS"
+
+Utilizar as tabelas de medidas do catálogo enviado pela Labela Sports.
+
+IMPORTANTE:
+Não inventar medidas.
+
+Preservar exatamente os valores e nomes das tabelas presentes no catálogo.
+
+Organizar de forma muito mais legível do que no PDF:
+
+- tabela responsiva
+- filtros por modelo
+- visualização confortável no celular
+- botão para alternar entre modelos
+
+Adicionar aviso:
+
+"As medidas podem variar de acordo com a modelagem. Confira a tabela correspondente ao produto escolhido."
+
+==================================================
+PERSONALIZAÇÃO
+==================================================
+
+Criar uma seção explicando visualmente o conceito de personalização.
+
+Título:
+
+"SEU TIME. SUA IDENTIDADE."
+
+Mostrar de forma visual:
+
+- cores
+- escudo
+- nome
+- número
+- patrocinadores
+- detalhes gráficos
+
+Não afirmar processos técnicos que não estejam comprovados pelos materiais fornecidos.
+
+CTA:
+
+"QUERO PERSONALIZAR"
+
+==================================================
+COMO FUNCIONA
+==================================================
+
+Criar uma seção em 4 etapas:
+
+01
+ESCOLHA O MODELO
+
+02
+ENVIE SUA IDEIA
+
+03
+DEFINIMOS A PERSONALIZAÇÃO
+
+04
+SOLICITE SEU ORÇAMENTO
+
+Visual moderno com numeração grande e detalhes em vermelho.
+
+==================================================
+GALERIA
+==================================================
+
+Criar uma galeria profissional de uniformes.
+
+Usar as imagens reais enviadas pela empresa.
+
+Não gerar imagens falsas de produtos se existirem imagens reais disponíveis.
+
+Layout:
+- mosaico assimétrico
+- cards grandes
+- hover discreto
+- visual premium
+- possibilidade de abrir imagem em tamanho maior
+
+==================================================
+SOBRE A LABELA SPORTS
+==================================================
+
+Criar uma seção institucional curta e objetiva.
+
+Título:
+
+"LABELA SPORTS"
+
+Texto base:
+
+"A Labela Sports desenvolve e confecciona uniformes esportivos personalizados para quem busca identidade, qualidade e uma apresentação profissional."
+
+Não inventar:
+- quantidade de clientes
+- anos de experiência
+- localização
+- números de produção
+- certificações
+- prêmios
+- parceiros
+- depoimentos
+
+Caso essas informações não tenham sido fornecidas, simplesmente não incluir.
+
+==================================================
+ORÇAMENTO
+==================================================
+
+Criar uma seção muito forte de conversão.
+
+Título:
+
+"VAMOS CRIAR O UNIFORME DO SEU TIME?"
+
+Texto:
+
+"Escolha seu modelo, envie sua ideia e fale com a Labela Sports."
+
+Botão principal:
+
+"SOLICITAR ORÇAMENTO"
+
+Botão secundário:
+
+"FALAR NO WHATSAPP"
+
+O botão deve abrir o WhatsApp.
+
+Usar placeholder:
+[WHATSAPP DA LABELA SPORTS]
+
+Não inventar número.
+
+Mensagem pré-preenchida sugerida:
+
+"Olá! Gostaria de solicitar um orçamento de uniformes personalizados da Labela Sports."
+
+==================================================
+CONTATO
+==================================================
+
+Criar uma seção limpa com:
+
+WhatsApp
+Instagram
+E-mail
+Endereço
+
+Mas somente exibir os dados que forem posteriormente fornecidos.
+
+Não inventar nenhuma informação.
+
+==================================================
+RODAPÉ
+==================================================
+
+Rodapé profissional.
+
+Logo Labela Sports.
+
+Links:
+
+Início
+Modelos
+Produtos
+Medidas
+Como funciona
+Contato
+
+CTA:
+
+"Solicitar orçamento"
+
+Adicionar links para redes sociais somente quando os links reais forem fornecidos.
+
+Adicionar:
+
+"© LABELA SPORTS. Todos os direitos reservados."
+
+Criar link para:
+
+Política de Privacidade
+Termos de Uso
+
+==================================================
+SEGURANÇA E CONFIABILIDADE
+==================================================
+
+O site deve transmitir segurança e profissionalismo.
+
+Implementar:
+
+- navegação clara
+- boa hierarquia visual
+- textos objetivos
+- formulário de contato seguro
+- proteção contra spam quando houver formulário
+- consentimento de privacidade quando houver coleta de dados
+- página de Política de Privacidade
+- links externos seguros
+- HTTPS quando publicado
+- nenhuma informação sensível exposta
+- nenhum selo de segurança falso
+- nenhuma certificação falsa
+- nenhuma promessa não comprovada
+
+Não criar avaliações falsas.
+
+Não criar números falsos.
+
+Não criar depoimentos fictícios.
+
+Não criar clientes fictícios.
+
+==================================================
+UX / UI
+==================================================
+
+A navegação deve ser extremamente intuitiva.
+
+O visitante deve conseguir chegar a:
+MODELOS
+PRODUTOS
+MEDIDAS
+ORÇAMENTO
+
+com pouquíssimos cliques.
+
+Criar CTAs repetidos de maneira estratégica, porém sem exagero.
+
+Usar:
+- sticky header
+- botões destacados
+- microinterações leves
+- hover nos produtos
+- transições suaves
+- animações discretas
+- feedback visual ao selecionar produto
+
+Não exagerar nas animações.
+
+==================================================
+RESPONSIVIDADE
+==================================================
+
+O site deve ser completamente responsivo.
+
+DESKTOP:
+layout amplo, imagens grandes, catálogo visual.
+
+TABLET:
+reorganizar cards e grids.
+
+MOBILE:
+experiência excelente para celular.
+
+No mobile:
+- menu compacto
+- cards em uma coluna ou duas quando fizer sentido
+- botões grandes
+- WhatsApp de fácil acesso
+- tabelas de medidas com rolagem horizontal quando necessário
+- textos perfeitamente legíveis
+
+Criar também um botão flutuante discreto de WhatsApp no mobile.
+
+==================================================
+SEO
+==================================================
+
+Preparar a estrutura para SEO.
+
+Título da página:
+
+"Labela Sports | Uniformes Esportivos Personalizados"
+
+Descrição:
+
+"Uniformes esportivos personalizados com a identidade do seu time. Confira modelos, preços e solicite seu orçamento com a Labela Sports."
+
+Usar estrutura semântica de títulos H1, H2 e H3.
+
+Imagens devem possuir textos ALT descritivos.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Priorizar:
+- carregamento rápido
+- imagens otimizadas
+- layouts leves
+- boa experiência mobile
+- pouca animação pesada
+- evitar elementos desnecessários
+
+==================================================
+DIREÇÃO VISUAL FINAL
+==================================================
+
+Imagine uma mistura de:
+
+CATÁLOGO ESPORTIVO PREMIUM
++
+SITE INSTITUCIONAL MODERNO
++
+CATÁLOGO DIGITAL INTERATIVO
+
+A página precisa transmitir:
+
+"ESSA É UMA EMPRESA PROFISSIONAL DE UNIFORMES ESPORTIVOS."
+
+A primeira impressão deve ser forte.
+
+O vermelho deve funcionar como cor de ação e identidade.
+
+O preto deve transmitir força.
+
+O branco deve proporcionar limpeza e sofisticação.
+
+A logo LABELA SPORTS deve sempre manter sua proporção original e não sofrer distorções.
+
+IMPORTANTE:
+NÃO ALTERAR O LOGOTIPO.
+NÃO RECRIAR A LOGO.
+NÃO MODIFICAR SUAS CORES.
+NÃO USAR OUTRA MARCA.
+
+O resultado final deve ser elegante, esportivo, profissional, intuitivo e preparado para conversão em pedidos de orçamento.
+
+NÃO PARE NA PRIMEIRA VERSÃO.
+
+Crie primeiro a estrutura completa do site e depois refine:
+- espaçamento
+- hierarquia
+- responsividade
+- alinhamento
+- tamanho dos botões
+- qualidade visual
+- consistência de cores
+- apresentação dos produtos
+
+O resultado deve parecer um site profissional desenvolvido por uma agência especializada em marcas esportivas.

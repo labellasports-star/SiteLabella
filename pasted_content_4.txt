@@ -1,0 +1,506 @@
+PRECISO FAZER A CONFIGURAÇÃO FINAL DE CONTATO E DE TODOS OS CTA/BOTÕES DO SITE DA LABELA SPORTS.
+
+IMPORTANTE:
+NÃO refaça o site.
+NÃO altere o design, identidade visual, estrutura, produtos, preços, imagens ou textos que já estão prontos.
+
+Faça somente as alterações descritas abaixo.
+
+==================================================
+1. DADOS OFICIAIS DA EMPRESA
+==================================================
+
+NOME:
+LABELA SPORTS
+
+ENDEREÇO:
+R. Balneário São José, 1020 - Balneário São José
+
+TELEFONE / WHATSAPP:
+11 95037-2932
+
+EMAIL:
+labellasports@gmail.com
+
+Usar esses dados exatamente como fornecidos.
+
+Não inventar nenhum outro dado.
+
+==================================================
+2. WHATSAPP PRINCIPAL
+==================================================
+
+O número oficial de WhatsApp da Labela Sports é:
+
++55 11 95037-2932
+
+Usar este número em todos os links de WhatsApp:
+
+https://wa.me/5511950372932
+
+IMPORTANTE:
+
+Todos os botões de ação/comercial do site devem abrir o WhatsApp.
+
+Exemplos:
+
+- SOLICITAR ORÇAMENTO
+- PEDIR ORÇAMENTO
+- FALAR COM A LABELA SPORTS
+- CHAMAR NO WHATSAPP
+- QUERO ESSE MODELO
+- TENHO INTERESSE
+- SOLICITAR ESTE PRODUTO
+- QUERO PERSONALIZAR
+- FALAR COM A EQUIPE
+- BOTÕES DE ORÇAMENTO NO HEADER
+- BOTÕES DE ORÇAMENTO NO HERO
+- BOTÕES DA SEÇÃO DE PRODUTOS
+- BOTÕES DAS PÁGINAS/DETALHES DOS PRODUTOS
+- BOTÃO DE CONTATO
+- CTA DO RODAPÉ
+- CTA DA SEÇÃO FINAL
+
+Nenhum CTA comercial deve ficar sem link.
+
+==================================================
+3. MENSAGENS PERSONALIZADAS POR BOTÃO
+==================================================
+
+NÃO utilizar a mesma mensagem genérica em todos os botões.
+
+Cada botão deve abrir o WhatsApp com uma mensagem coerente com o local em que o cliente clicou.
+
+Usar mensagens pré-preenchidas.
+
+--------------------------------------
+HEADER / SOLICITAR ORÇAMENTO
+--------------------------------------
+
+Mensagem:
+
+"Olá! Vim pelo site da Labela Sports e gostaria de solicitar um orçamento de uniformes esportivos personalizados."
+
+--------------------------------------
+HERO / SOLICITAR ORÇAMENTO
+--------------------------------------
+
+Mensagem:
+
+"Olá! Conheci a Labela Sports pelo site e gostaria de solicitar um orçamento para uniformes esportivos personalizados."
+
+--------------------------------------
+BOTÃO CHAMAR NO WHATSAPP
+--------------------------------------
+
+Mensagem:
+
+"Olá! Gostaria de falar com a equipe da Labela Sports."
+
+--------------------------------------
+BOTÃO QUERO PERSONALIZAR
+--------------------------------------
+
+Mensagem:
+
+"Olá! Gostaria de personalizar um uniforme esportivo com a Labela Sports. Gostaria de receber mais informações."
+
+--------------------------------------
+BOTÃO QUERO ESSE MODELO
+--------------------------------------
+
+Esse botão deve ser DINÂMICO.
+
+A mensagem deve incluir automaticamente o nome do produto em que o cliente clicou.
+
+Formato:
+
+"Olá! Tenho interesse no modelo [NOME DO PRODUTO] da Labela Sports e gostaria de solicitar um orçamento."
+
+Exemplo:
+
+"Olá! Tenho interesse no modelo POLO da Labela Sports e gostaria de solicitar um orçamento."
+
+Outro exemplo:
+
+"Olá! Tenho interesse no modelo RAGLAN GOLA V da Labela Sports e gostaria de solicitar um orçamento."
+
+Nunca escrever literalmente "[NOME DO PRODUTO]" no WhatsApp. Substituir pelo nome real do produto.
+
+--------------------------------------
+BOTÃO SOLICITAR ESTE PRODUTO
+--------------------------------------
+
+Também deve ser dinâmico.
+
+Mensagem:
+
+"Olá! Gostaria de solicitar um orçamento do produto [NOME DO PRODUTO] da Labela Sports."
+
+Substituir automaticamente pelo produto correspondente.
+
+==================================================
+4. SEÇÃO "MONTE SEU PEDIDO"
+==================================================
+
+ESTA É A PARTE MAIS IMPORTANTE.
+
+O botão:
+
+"SOLICITAR ORÇAMENTO"
+
+dentro da seção "MONTE SEU PEDIDO" deve gerar uma mensagem COMPLETA E AUTOMÁTICA baseada exatamente no que o cliente selecionou no site.
+
+A mensagem deve ser montada dinamicamente antes de abrir o WhatsApp.
+
+O sistema precisa capturar:
+
+- produto/modelo escolhido;
+- quantidade selecionada;
+- preço unitário;
+- subtotal de cada item;
+- valor total do pedido.
+
+Se houver diferentes produtos no pedido, mostrar todos separadamente.
+
+A mensagem deve ficar organizada e fácil de ler.
+
+Usar exatamente este formato como referência:
+
+"Olá! Gostaria de solicitar um orçamento com base na minha seleção no site da Labela Sports.
+
+*MEU PEDIDO*
+
+1. [PRODUTO 1]
+Quantidade: [QUANTIDADE]
+Valor unitário: R$ [VALOR]
+Subtotal: R$ [SUBTOTAL]
+
+2. [PRODUTO 2]
+Quantidade: [QUANTIDADE]
+Valor unitário: R$ [VALOR]
+Subtotal: R$ [SUBTOTAL]
+
+3. [PRODUTO 3]
+Quantidade: [QUANTIDADE]
+Valor unitário: R$ [VALOR]
+Subtotal: R$ [SUBTOTAL]
+
+*VALOR TOTAL: R$ [TOTAL]*
+
+Gostaria de confirmar este pedido e receber as orientações para continuar."
+
+Se houver somente um produto:
+
+"Olá! Gostaria de solicitar um orçamento com base na minha seleção no site da Labela Sports.
+
+*MEU PEDIDO*
+
+Produto: [PRODUTO]
+Quantidade: [QUANTIDADE]
+Valor unitário: R$ [VALOR]
+Subtotal: R$ [SUBTOTAL]
+
+*VALOR TOTAL: R$ [TOTAL]*
+
+Gostaria de confirmar este pedido e receber as orientações para continuar."
+
+IMPORTANTE:
+
+A mensagem deve refletir EXATAMENTE o que o cliente escolheu.
+
+Não inventar quantidade.
+
+Não inventar produto.
+
+Não inventar preço.
+
+Não usar valores fixos escritos manualmente na mensagem.
+
+As informações devem vir dos dados reais do configurador.
+
+==================================================
+5. CÁLCULO DO VALOR TOTAL
+==================================================
+
+O "MONTE SEU PEDIDO" deve calcular:
+
+SUBTOTAL = quantidade × preço unitário
+
+E:
+
+TOTAL = soma dos subtotais de todos os produtos selecionados.
+
+O valor mostrado no site deve ser o mesmo valor enviado no WhatsApp.
+
+Exemplo:
+
+POLO
+Quantidade: 10
+Valor unitário: R$ 57,90
+Subtotal: R$ 579,00
+
+CALÇÃO DE JOGO
+Quantidade: 10
+Valor unitário: R$ 37,90
+Subtotal: R$ 379,00
+
+TOTAL:
+R$ 958,00
+
+O WhatsApp deve receber exatamente esses dados.
+
+==================================================
+6. BOTÃO DO MONTE SEU PEDIDO
+==================================================
+
+Quando o cliente clicar em:
+
+"SOLICITAR ORÇAMENTO"
+
+o site deve:
+
+1. verificar as seleções;
+2. verificar as quantidades;
+3. calcular os subtotais;
+4. calcular o valor total;
+5. montar a mensagem;
+6. codificar corretamente a mensagem para URL;
+7. abrir o WhatsApp.
+
+Utilizar o padrão:
+
+https://wa.me/5511950372932?text=[MENSAGEM_CODIFICADA]
+
+Usar URL encoding adequado.
+
+Abrir o WhatsApp em nova aba quando apropriado.
+
+==================================================
+7. VALIDAÇÃO DO MONTE SEU PEDIDO
+==================================================
+
+Se o cliente clicar em "SOLICITAR ORÇAMENTO" sem selecionar nenhum produto:
+
+não abrir o WhatsApp imediatamente.
+
+Mostrar uma mensagem clara:
+
+"Selecione pelo menos um produto antes de solicitar o orçamento."
+
+Se o produto exigir quantidade e a quantidade estiver vazia ou inválida:
+
+mostrar:
+
+"Informe a quantidade desejada antes de continuar."
+
+Não permitir:
+
+- quantidade zero;
+- quantidade negativa;
+- campos inválidos.
+
+==================================================
+8. CONTATO / ENDEREÇO
+==================================================
+
+O endereço deve ser clicável.
+
+Texto sugerido:
+
+"R. Balneário São José, 1020 - Balneário São José"
+
+Criar também um botão:
+
+"COMO CHEGAR"
+
+Esse botão NÃO deve abrir WhatsApp.
+
+Ele deve abrir o Google Maps para o endereço informado.
+
+Utilizar este link:
+
+https://www.google.com/maps/dir/?api=1&destination=R.%20Balne%C3%A1rio%20S%C3%A3o%20Jos%C3%A9%2C%201020%20-%20Balne%C3%A1rio%20S%C3%A3o%20Jos%C3%A9
+
+O link deve abrir o Google Maps/rota para o endereço da Labela Sports.
+
+Não inventar coordenadas.
+
+Não alterar o endereço.
+
+==================================================
+9. TELEFONE
+==================================================
+
+Exibir:
+
+11 95037-2932
+
+Para elementos claramente destinados a contato telefônico, utilizar:
+
+tel:+5511950372932
+
+Porém, os principais botões comerciais de contato devem continuar direcionando para o WhatsApp, conforme especificado acima.
+
+==================================================
+10. EMAIL
+==================================================
+
+Exibir:
+
+labellasports@gmail.com
+
+O email pode ser clicável utilizando:
+
+mailto:labellasports@gmail.com
+
+==================================================
+11. FOOTER
+==================================================
+
+No rodapé, incluir:
+
+LABELA SPORTS
+
+R. Balneário São José, 1020 - Balneário São José
+
+11 95037-2932
+
+labellasports@gmail.com
+
+Criar:
+
+COMO CHEGAR
+→ Google Maps
+
+WHATSAPP
+→ WhatsApp
+
+EMAIL
+→ Email
+
+O botão "WHATSAPP" deve usar uma mensagem:
+
+"Olá! Gostaria de entrar em contato com a Labela Sports."
+
+==================================================
+12. BOTÕES DE PRODUTO
+==================================================
+
+Todos os botões comerciais relacionados a produtos precisam funcionar.
+
+Exemplos:
+
+VER DETALHES
+→ continua abrindo os detalhes do produto.
+
+QUERO ESSE MODELO
+→ WhatsApp com o nome do produto.
+
+SOLICITAR ORÇAMENTO
+→ WhatsApp com o nome do produto.
+
+TENHO INTERESSE
+→ WhatsApp com o nome do produto.
+
+Não quebrar os botões que possuem função de navegação ou abrir detalhes.
+
+A regra "todos os botões devem ir para o WhatsApp" se aplica aos BOTÕES DE AÇÃO COMERCIAL.
+
+Filtros, menu, abas, abrir detalhes, fechar modal e navegação interna devem continuar funcionando normalmente.
+
+==================================================
+13. BOTÕES DE REDES SOCIAIS
+==================================================
+
+Não inventar links de redes sociais.
+
+Caso já existam links oficiais configurados no projeto, preservar.
+
+Caso não exista um link oficial, não criar um link falso.
+
+==================================================
+14. EXPERIÊNCIA NO MOBILE
+==================================================
+
+No celular, garantir que:
+
+- botão WhatsApp funcione;
+- CTA de orçamento funcione;
+- pedido do configurador seja enviado corretamente;
+- mensagem completa apareça no WhatsApp;
+- endereço abra o Maps;
+- email abra o aplicativo de email;
+- nenhum botão fique cortado;
+- nenhum link fique sem ação.
+
+Adicionar um botão flutuante de WhatsApp no mobile, caso ainda não exista.
+
+Mensagem:
+
+"Olá! Gostaria de falar com a Labela Sports."
+
+==================================================
+15. TESTE OBRIGATÓRIO
+==================================================
+
+Depois de implementar tudo, teste os principais fluxos.
+
+TESTE 1:
+Clicar em SOLICITAR ORÇAMENTO no header.
+→ Deve abrir WhatsApp com mensagem correta.
+
+TESTE 2:
+Clicar em SOLICITAR ORÇAMENTO no Hero.
+→ Deve abrir WhatsApp com mensagem correta.
+
+TESTE 3:
+Abrir um produto e clicar em QUERO ESSE MODELO.
+→ O nome correto do produto deve aparecer automaticamente na mensagem.
+
+TESTE 4:
+Usar MONTE SEU PEDIDO com um produto.
+→ WhatsApp deve receber produto, quantidade, valor unitário, subtotal e total.
+
+TESTE 5:
+Usar MONTE SEU PEDIDO com vários produtos.
+→ WhatsApp deve receber todos os produtos, quantidades, subtotais e valor total.
+
+TESTE 6:
+Clicar em COMO CHEGAR.
+→ Deve abrir o Google Maps com o endereço correto.
+
+TESTE 7:
+Clicar no email.
+→ Deve abrir mailto para labellasports@gmail.com.
+
+TESTE 8:
+Testar no mobile.
+
+==================================================
+16. REGRA FINAL
+==================================================
+
+Não alterar o design atual.
+
+Não alterar a identidade visual.
+
+Não alterar os preços existentes.
+
+Não alterar os nomes dos produtos.
+
+Não alterar as imagens.
+
+Não alterar o conteúdo já aprovado.
+
+Apenas:
+- configurar os dados oficiais da empresa;
+- configurar os links;
+- configurar mensagens pré-preenchidas;
+- tornar os CTA comerciais funcionais;
+- criar a mensagem dinâmica do MONTE SEU PEDIDO;
+- configurar o Google Maps;
+- configurar email e telefone;
+- testar tudo em desktop e mobile.
+
+O objetivo é que o visitante consiga navegar pelo site normalmente e, quando tiver interesse em comprar ou pedir orçamento, consiga chegar ao WhatsApp da Labela Sports com uma mensagem já pronta e organizada.

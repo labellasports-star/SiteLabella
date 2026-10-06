@@ -1,0 +1,299 @@
+PRECISO FAZER UMA ALTERAÇÃO NO PROJETO EXISTENTE DO SITE DA LABELA SPORTS.
+
+NÃO REFAÇA O SITE DO ZERO.
+NÃO ALTERE A ESTRUTURA, OS TEXTOS, OS PREÇOS, OS PRODUTOS OU A IDENTIDADE VISUAL JÁ CRIADA.
+
+Apenas faça as alterações descritas abaixo.
+
+==================================================
+1. ARQUIVOS DOS PRODUTOS E LOGOTIPO
+==================================================
+
+Use este Google Drive como fonte oficial das imagens:
+
+https://drive.google.com/drive/folders/1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6?usp=sharing
+
+Dentro da pasta existem as imagens reais dos produtos e também o novo logotipo da empresa.
+
+REGRA IMPORTANTE:
+
+Cada imagem de produto está salva com o NOME DO PRÓPRIO PRODUTO.
+
+Exemplos:
+
+POLO
+POLO FEMININA
+REGATA CONFORT
+VARSITY
+CLASSIC
+PRIME
+RAGLAN GOLA V
+VINTAGE
+etc.
+
+O arquivo do logotipo está salvo com o nome:
+
+LOGOTIPO
+
+Você deve analisar o nome de cada arquivo e associá-lo ao produto correspondente já existente no site.
+
+NÃO coloque uma imagem em um produto diferente.
+
+NÃO misture imagens entre modelos.
+
+NÃO altere os nomes dos produtos.
+
+NÃO substitua produtos por outros.
+
+==================================================
+2. TROCAR AS IMAGENS DOS CARDS
+==================================================
+
+Atualmente os cards dos produtos possuem um espaço reservado para imagens, porém o modelo visual desse espaço está HORIZONTAL enquanto as imagens reais dos produtos estão em formato VERTICAL.
+
+Isso precisa ser corrigido.
+
+As imagens dos produtos devem ser exibidas no formato VERTICAL.
+
+Portanto:
+
+- alterar a área de imagem dos cards de horizontal para vertical;
+- aumentar a altura da área destinada à imagem;
+- diminuir a largura proporcionalmente;
+- criar uma composição visual semelhante a um catálogo profissional;
+- manter todos os cards visualmente alinhados;
+- manter a mesma altura total dos cards;
+- garantir que todas as imagens tenham o mesmo padrão visual.
+
+A área superior de cada card deve ser pensada para uma fotografia vertical de produto.
+
+==================================================
+3. NÃO DISTORCER AS IMAGENS
+==================================================
+
+NUNCA esticar, achatar ou deformar as imagens.
+
+Preservar sempre a proporção original das fotos.
+
+Utilizar comportamento equivalente a:
+
+object-fit: contain;
+
+As imagens devem ficar completamente visíveis sempre que possível.
+
+Não cortar partes importantes do uniforme.
+
+Não cortar gola, manga, barra, escudo ou qualquer outra parte importante do produto.
+
+Se houver espaço sobrando nas laterais ou em cima/baixo, utilizar esse espaço de maneira elegante.
+
+==================================================
+4. PADRONIZAÇÃO VISUAL
+==================================================
+
+Todas as imagens devem aparecer de maneira consistente.
+
+Criar uma área de imagem vertical com:
+
+- proporção consistente;
+- alinhamento central;
+- espaçamento interno uniforme;
+- fundo limpo;
+- boa distância entre a imagem e as bordas;
+- nenhum efeito exagerado.
+
+O objetivo é que os produtos pareçam estar sendo apresentados em um catálogo profissional.
+
+Não aplicar filtros que alterem as cores reais dos produtos.
+
+Não alterar as cores das imagens.
+
+Não adicionar sombras artificiais pesadas.
+
+Não adicionar elementos gráficos sobre os uniformes.
+
+==================================================
+5. MANTER O DESIGN EXISTENTE
+==================================================
+
+Preservar:
+
+- nome do produto;
+- categoria;
+- tamanho;
+- preço;
+- descrição;
+- botão "VER DETALHES";
+- botão/ícone de ação;
+- estrutura do catálogo;
+- filtros;
+- navegação;
+- cores;
+- tipografia;
+- espaçamentos;
+- identidade visual da Labela Sports.
+
+A única alteração visual principal deve ser a adaptação do espaço da fotografia horizontal para fotografia vertical.
+
+==================================================
+6. TROCAR A LOGOTIPO
+==================================================
+
+Localizar no Google Drive o arquivo chamado:
+
+LOGOTIPO
+
+Utilizar esse arquivo como a nova logomarca oficial da LABELA SPORTS.
+
+Substituir a logomarca atualmente utilizada no site.
+
+Aplicar a nova logo em:
+
+- header;
+- menu;
+- rodapé;
+- favicon, caso exista;
+- demais locais onde a logo antiga estiver sendo utilizada.
+
+IMPORTANTE:
+
+Não recriar a logo.
+
+Não redesenhar a logo.
+
+Não alterar suas proporções.
+
+Não modificar as cores.
+
+Não aplicar distorção.
+
+Utilizar o arquivo original.
+
+==================================================
+7. ASSOCIAR AUTOMATICAMENTE AS FOTOS
+==================================================
+
+Faça uma correspondência entre:
+
+NOME DO PRODUTO NO SITE
+X
+NOME DO ARQUIVO NO GOOGLE DRIVE
+
+Por exemplo:
+
+Produto no site:
+POLO
+
+Arquivo:
+POLO.png / POLO.jpg / POLO.webp
+
+Resultado:
+usar essa imagem especificamente no produto POLO.
+
+Produto:
+POLO FEMININA
+
+Arquivo:
+POLO FEMININA.png / JPG / WEBP
+
+Resultado:
+usar especificamente no card da POLO FEMININA.
+
+Faça isso para TODOS os produtos disponíveis no Google Drive.
+
+Se houver pequenas diferenças entre maiúsculas, minúsculas, espaços, acentos ou extensão do arquivo, considere o nome semanticamente equivalente.
+
+Não faça correspondências aleatórias.
+
+==================================================
+8. PRODUTOS SEM IMAGEM
+==================================================
+
+Caso exista algum produto no site sem uma imagem correspondente no Google Drive:
+
+NÃO utilizar a imagem de outro produto.
+
+NÃO duplicar uma imagem de outro modelo.
+
+NÃO gerar imagem artificial.
+
+Nesse caso, manter temporariamente o espaço reservado existente e sinalizar claramente qual produto está sem imagem correspondente.
+
+==================================================
+9. RESPONSIVIDADE
+==================================================
+
+Depois de alterar o formato dos cards para vertical, revisar a responsividade.
+
+Desktop:
+- cards bem alinhados;
+- imagens verticais;
+- boa proporção entre imagem e informações;
+- grid organizado.
+
+Tablet:
+- manter boa proporção;
+- evitar imagens esmagadas;
+- manter espaçamento.
+
+Mobile:
+- imagem vertical com boa visualização;
+- texto legível;
+- preço visível;
+- botão funcionando;
+- cards sem cortes;
+- nenhuma deformação das imagens.
+
+==================================================
+10. RESULTADO VISUAL
+==================================================
+
+O resultado deve parecer um catálogo profissional de uma empresa de uniformes esportivos.
+
+A imagem vertical do produto deve ser o principal destaque do card.
+
+A hierarquia deve ser:
+
+IMAGEM DO PRODUTO
+↓
+CATEGORIA
+↓
+NOME DO PRODUTO
+↓
+DESCRIÇÃO
+↓
+PREÇO
+↓
+VER DETALHES / AÇÃO
+
+A imagem deve ter mais presença visual do que atualmente.
+
+Não deixar a área de imagem pequena.
+
+==================================================
+11. IMPORTANTE — NÃO ALTERAR O QUE JÁ ESTÁ PRONTO
+==================================================
+
+Não faça redesign completo.
+
+Não altere:
+
+- estrutura geral;
+- conteúdo;
+- preços;
+- nomes;
+- categorias;
+- textos;
+- navegação;
+- funcionamento dos botões.
+
+O trabalho é de:
+1. substituição de imagens;
+2. substituição do logotipo;
+3. adaptação do container das imagens para formato vertical;
+4. padronização do enquadramento;
+5. revisão responsiva.
+
+Antes de finalizar, verifique TODOS os produtos para garantir que cada imagem foi colocada no produto correto.
+
+Faça uma revisão final visual em desktop e mobile.

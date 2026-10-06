@@ -1,0 +1,201 @@
+# Terminal Full Output
+# Terminal: drive-config
+# Command: gws drive files list --params '{"q":"'"'1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6'"' in parents and trashed = false","pageSize":100,"fields":"files(id,name,mimeType,size,webContentLink,thumbnailLink,parents)"}' --format json
+# PID: 1153
+# Timestamp: 2026-10-01_13-36-31.930282
+# Original Length: 9272 characters
+# ----------------------------------------
+
+[32mubuntu@sandbox:~$ [0mgws drive files list --params '{"q":"'"'1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6'"' in parents and trashed = false","pageSize":100,"fields":"files(id,name,mimeType,size,webContentLink,thumbnailLink,parents)"}' --format json
+{
+  "files": [
+    {
+      "id": "1n6fXfkA5TLDebr59czlSwNI9pglXSIvn",
+      "mimeType": "image/jpeg",
+      "name": "VINTAGE.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "947308",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiLOHKwRNaO4WZT3Tys4twX_BGf7vbft1SUuGp1PGNpH9iPRtERtB2MxRSHs6bqSz4FCBy-WlUs1nafJNTJ3l5LrNVpJAdLU5QV6CuZwqSM3tV6g=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1n6fXfkA5TLDebr59czlSwNI9pglXSIvn&export=download"
+    },
+    {
+      "id": "1SjYAort88DAFaHtcKGCS98cwc3qyGJAC",
+      "mimeType": "image/png",
+      "name": "LOGOTIPO.png",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "440564",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrwX_N7I6k8UILG67Eu_-V2i1LI8VK7eSZ1V_qBcdWdnPsT7XNPI1M5uYxRc6WREPXwgIqfJSMaey6QqONbJV5bfgE18Lkkm0vpeVK-_0wcGSrEw=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1SjYAort88DAFaHtcKGCS98cwc3qyGJAC&export=download"
+    },
+    {
+      "id": "11NhLJyISVj2kHQD3TOOqoWR6kP_NrUpq",
+      "mimeType": "image/jpeg",
+      "name": "CAMISA DE ALGODÃO.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "1089906",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM32ilxsAVq8ewq7V-N3Ggzud1lOqokdYke8C6drtKzZNZ9mCsswXT7h0zOolmeoSKuZAfKjs5rMnNe5OU-OtGRcfLV-EUn6cvcAIHEA9WEtE3frQ=s220",
+      "webContentLink": "https://drive.google.com/uc?id=11NhLJyISVj2kHQD3TOOqoWR6kP_NrUpq&export=download"
+    },
+    {
+      "id": "1rfuzlPXOEwbDzFACTvS4gJ1tf9wlDv0c",
+      "mimeType": "image/jpeg",
+      "name": "BONES.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "735020",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDphNdHB7YkdVHi0Sw6bQ0825k-WrCJDzgf71xgnCuDYE6D17uZSzVl2_JuJPKOtaB85pYywz6hTxJgD_dYaOgL8QAfDr0pvtaWqLqeDmRJQTrdw=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1rfuzlPXOEwbDzFACTvS4gJ1tf9wlDv0c&export=download"
+    },
+    {
+      "id": "1B4gAxPc33grktNpmfEVOBLB65lRlO0r_",
+      "mimeType": "image/jpeg",
+      "name": "MEIA.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "1171806",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5LO3LvRuffl4iyAGY6-6g5KFRe3s_uT_NsedJcVsR_xysPaq5xy-Bhp44UsGr1itqyYWMB1gQ4t8QObMueh02tKEg4010BAMHlcKu-d0SRw89jw=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1B4gAxPc33grktNpmfEVOBLB65lRlO0r_&export=download"
+    },
+    {
+      "id": "1h0ndAuq4EsBBTVn35usgq1oA2IuN3jhK",
+      "mimeType": "image/jpeg",
+      "name": "MEIÃO.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "772385",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcn-4XedOTTX2xvbu29tg-zj_paf3dKUsan_5R9y3InhIwWNO0s_lsraMSjrXRLX_YU_ungFPodrRw63uaUytx354u8xNIRXf2w4mH0FNOAAhucA=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1h0ndAuq4EsBBTVn35usgq1oA2IuN3jhK&export=download"
+    },
+    {
+      "id": "1RRIGZwmL4jLGx3USEI2Y9DpQlEFb7DtR",
+      "mimeType": "image/jpeg",
+      "name": "CALÇÃO DE JOGO FEMININO.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "755381",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOep3gobc5MHMhiQlKNdIgLeX4uMnlhZ_JRNo1qYjaeMrtNUAYAA7Ce62jmtbav1efOut9dt-B-src8p4f9tU1iwTN3ZFHTGtcuuhJU6tJWV6egKQ=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1RRIGZwmL4jLGx3USEI2Y9DpQlEFb7DtR&export=download"
+    },
+    {
+      "id": "1jwW-cqoAIMNRUp6FxuD5rqH3VCWTISoA",
+      "mimeType": "image/jpeg",
+      "name": "BABY LOOCK.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "1509902",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvY-VqJ2hSnGw5Yj_vyPnYyDVO3loUpUcx3gpE4QfWBFRYV4sLesRWnGxv6ZhGR9xdRT1vPueqYI1RHe2JOJvndHfR2ksafh6V8v9VdIB4tjEj6g=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1jwW-cqoAIMNRUp6FxuD5rqH3VCWTISoA&export=download"
+    },
+    {
+      "id": "1dY5Evu-4EE7LFFVNmoQB2v9_UsO2B5Gd",
+      "mimeType": "image/jpeg",
+      "name": "POLO.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "931178",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5pIKDf1ziz5P-Vz4mm9T8rzEruhFX6UKsDRW_0Suky9viFrj-BO3hiytnWjgr9nZ1WdfWLhROAs8MtWrZBSiVX880Z8JjHruSqvqyO3P_sORWQA=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1dY5Evu-4EE7LFFVNmoQB2v9_UsO2B5Gd&export=download"
+    },
+    {
+      "id": "1H8fa7gTeEsIRdnqhpRyrFl33EGkdYrc4",
+      "mimeType": "image/jpeg",
+      "name": "POLO FEMININA.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "940600",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUZxApm7zxSPv9Ju4XU_HzfbKkYysfjDNp7lSbwWxRe0qC5cCcdzp_M5KGvk90D3fF48slpq5ZMWue_r6eSIE9jeqZ-cCNkm3t8RhTzqXrudzgXQ=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1H8fa7gTeEsIRdnqhpRyrFl33EGkdYrc4&export=download"
+    },
+    {
+      "id": "1nXPz6GlniqDneDeAWafYqvbIb4hngOLI",
+      "mimeType": "image/jpeg",
+      "name": "REGATA CONFORT FEMININA.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "1273585",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTY9RbV165c-akGOaXc-K00ZgvsX4DM1TZkTr3yIsEyr62QZq5290jpL6vT-yegeE1JhSb9P7O_AKihZmruV7bM0Hk_-jTkFrgLHtpXt861MfKTA=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1nXPz6GlniqDneDeAWafYqvbIb4hngOLI&export=download"
+    },
+    {
+      "id": "1-woZ34rbVp5y9pDjJTJx6ODK7sFvFvX5",
+      "mimeType": "image/png",
+      "name": "RAGLAN MANGA LONGA.png",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "2226067",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPNPj82p3ufLo7IdWJkltcbEpT2DdTaqwFrV70k-k-YqbNQBVlxgG3tS2I-HfxUNvQ_YcJgA7mzG4CR0xlIRDaGu-wTS4An4HLYaE86wr1_nVXLA=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1-woZ34rbVp5y9pDjJTJx6ODK7sFvFvX5&export=download"
+    },
+    {
+      "id": "1sNy_Hpjv-92f8p0woiwKTJH3wy6UMTE_",
+      "mimeType": "image/jpeg",
+      "name": "VARSITY.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "892118",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2pTZ6bEaBY6TNIo_IkVeUv7WeV04-HT3TdCCBDJNhm3uTu5Q9b_iFaJFeLnziUdvJjePfHNvnmdJvyyBn13YkGZL5wR8NfJlZuWwYCpQvMyQAag=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1sNy_Hpjv-92f8p0woiwKTJH3wy6UMTE_&export=download"
+    },
+    {
+      "id": "1wVKayDMut_jCsEBS1VaNcrbRPQDkUHps",
+      "mimeType": "image/png",
+      "name": "REGATA CONFORT.png",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "2497247",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfmzqaAWaOZt_Mb0GdXmlwyWSqu9dcHL8YbR1lFl0-HJk1Pt0Cu35ZK3p4MTaldpx0pCRp6MdWjwe_C4AqmDw7FILe2-0a52GlERWCtO4Gvpv8FQ=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1wVKayDMut_jCsEBS1VaNcrbRPQDkUHps&export=download"
+    },
+    {
+      "id": "1LSdj_O4ZrDmvGrGn3rYxKYQ-Zr9L4_Ri",
+      "mimeType": "image/jpeg",
+      "name": "RAGLAN GOLA V.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "860675",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFllCWk_TATj5YdLZfMPCWEuhVP8HF_MWYHfaqgh7UcBF2z5Dif5PjbEzCmzwIr8Sa-NFYhE4gQFnhn0yk-7rrZ-3SXeuN1EHjTS-NBIrdi2Cmvw=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1LSdj_O4ZrDmvGrGn3rYxKYQ-Zr9L4_Ri&export=download"
+    },
+    {
+      "id": "1zvtxcHrDE5HPzMVrM35LYkHpNEPqNwGf",
+      "mimeType": "image/png",
+      "name": "PRIME.png",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "11434911",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlZP25xupB-v7wMynpFwzjRftAQJaH-14T6Kh0ggy7aprkj4l5ictWLaOLRuExS_ntjfveXuxSWQ8rHXgtIQGELd5GIwsBaog0Jqn47Ugh_8M7Bg=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1zvtxcHrDE5HPzMVrM35LYkHpNEPqNwGf&export=download"
+    },
+    {
+      "id": "1s04Pv3N4CSdiGDolm2ynyuKu34sPe_sN",
+      "mimeType": "image/jpeg",
+      "name": "CLASSIC.jpg",
+      "parents": [
+        "1QRBZ_rXz0OJLGHbn_MUh7g-MSpAilJr6"
+      ],
+      "size": "1258256",
+      "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNo07raMEnEEPv57Y8WVSftItC7sqOs3oZlTFPsPTwKAKwKxVoDf4IOI6_4UDPv97_GWzf6wcGW7I0WAN_BNUugH9h2qhdvq8X7X__VTqk-iOc1bQ=s220",
+      "webContentLink": "https://drive.google.com/uc?id=1s04Pv3N4CSdiGDolm2ynyuKu34sPe_sN&export=download"
+    }
+  ]
+}
+[32mubuntu@sandbox:~$ [0m

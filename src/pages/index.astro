@@ -1,0 +1,247 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { filterLabels, products } from '../data/catalog';
+import { shieldOptions } from '../data/shields';
+import { contact } from '../config/contact';
+
+const filters = Object.entries(filterLabels) as [keyof typeof filterLabels, string][];
+const shirts = products.filter((product) => product.family === 'camisa');
+const shorts = products.filter((product) => product.family === 'calcao');
+const socks = products.filter((product) => product.family === 'meiao');
+const catalogJson = JSON.stringify(products).replace(/</g, '\\u003c');
+---
+
+<Layout>
+  <Header />
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="eyebrow eyebrow--light"><i></i> Uniformes personalizados</span>
+          <h1><span>UNIFORMES ESPORTIVOS</span><em>COM A IDENTIDADE</em><span>DO SEU TIME</span></h1>
+          <p class="hero__lead">Modelos personalizados para equipes, projetos e empresas.</p>
+          <div class="hero__actions">
+            <button class="button button--red" type="button" data-quote data-quote-message="Olá! Conheci a Labella Sports pelo site e gostaria de solicitar um orçamento para uniformes esportivos personalizados.">Solicitar orçamento <span aria-hidden="true">↗</span></button>
+            <a class="button button--ghost" href="#modelos">Ver modelos <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero__tagline">PERSONALIZE. <span>REPRESENTE.</span> VISTA SUA IDENTIDADE.</p>
+        </div>
+        <figure class="hero__image-wrap">
+          <img src="/images/hero-official.png" width="5000" height="3716" alt="Uniforme esportivo personalizado da Labella Sports" fetchpriority="high" />
+          <figcaption>Imagem oficial fornecida pela Labella Sports.</figcaption>
+          <div class="hero__cutout" aria-hidden="true"></div>
+          <div class="hero__badge"><strong>CATÁLOGO</strong><span>MODELOS PARA<br />PERSONALIZAR</span></div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="difference-strip" aria-label="Diferenciais Labella Sports">
+      <div class="container difference-grid">
+        <article><span>01</span><div><h2>Personalização</h2><p>Seu uniforme com cores, escudo, nome e identidade do seu time.</p></div></article>
+        <article><span>02</span><div><h2>Diversidade de modelos</h2><p>Diferentes modelagens para diferentes estilos e necessidades.</p></div></article>
+        <article><span>03</span><div><h2>Qualidade</h2><p>Peças esportivas pensadas para conforto, identidade e desempenho.</p></div></article>
+        <article><span>04</span><div><h2>Atendimento</h2><p>Atendimento para orientar a escolha do uniforme.</p></div></article>
+      </div>
+    </section>
+
+    <section class="catalog section" id="modelos">
+      <div class="container">
+        <div class="section-heading section-heading--split">
+          <div><span class="eyebrow"><i></i> Catálogo Labella</span><h2>ESCOLHA SEU <em>MODELO</em></h2></div>
+          <p>Confira nossas modelagens e encontre a peça ideal para o seu projeto.</p>
+        </div>
+        <div class="catalog__toolbar" id="produtos">
+          <div class="filter-list" aria-label="Filtrar modelos">
+            {filters.map(([id, label], index) => <button class="filter-button" type="button" data-filter={id} aria-pressed={index === 0 ? 'true' : 'false'}>{label}</button>)}
+          </div>
+          <p class="catalog__count" aria-live="polite"><span data-catalog-count>{products.length}</span> modelos no catálogo</p>
+        </div>
+        <div class="catalog-grid" data-catalog-grid>
+          {products.map((product, index) => <ProductCard product={product} index={index} />)}
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery-highlight" aria-label="Informações de entrega">
+      <div class="container delivery-highlight__grid">
+        <article><span class="delivery-highlight__index">01</span><div><strong>PRAZO DE ENTREGA</strong><p>Prazo de entrega: 15 dias úteis, contados a partir do fechamento do pedido.</p></div></article>
+        <article><span class="delivery-highlight__index">02</span><div><strong>ENTREGA</strong><p>Entregamos para todo o Brasil.</p></div></article>
+      </div>
+    </section>
+
+    <section class="shield-options section" id="opcoes-de-escudo">
+      <div class="container">
+        <div class="section-heading section-heading--split">
+          <div><span class="eyebrow"><i></i> Personalização</span><h2>OPÇÕES DE <em>ESCUDO</em></h2></div>
+          <p>Escolha o acabamento que melhor representa o seu projeto.</p>
+        </div>
+        <div class="shield-options__grid">
+          {shieldOptions.map((option) => <article class="shield-option-card">
+            <div class="shield-option-card__image"><img src={option.image} alt={`Escudo ${option.name}`} loading="lazy" /></div>
+            <div class="shield-option-card__body"><h3>{option.name}</h3><p>+ {option.price === 0 ? 'R$ 0,00' : `R$ ${option.price.toFixed(2).replace('.', ',')}`} por unidade</p></div>
+          </article>)}
+        </div>
+      </div>
+    </section>
+
+    <section class="identity-section section" id="personalizacao">
+      <div class="container identity-grid">
+        <div class="identity__copy">
+          <span class="eyebrow eyebrow--light"><i></i> Personalização</span>
+          <h2>SEU TIME.<br /><em>SUA IDENTIDADE.</em></h2>
+          <p>Da combinação de cores aos elementos que contam a história da equipe, cada escolha ajuda a construir uma apresentação que representa o seu projeto.</p>
+          <button class="button button--red" type="button" data-quote data-quote-message="Olá! Gostaria de personalizar um uniforme esportivo com a Labella Sports. Gostaria de receber mais informações.">Quero personalizar <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="identity-board" aria-label="Elementos que podem compor uma personalização">
+          <div class="identity-board__head"><span>ELEMENTOS DO PROJETO</span><span>01 — 06</span></div>
+          <div class="identity-board__grid">
+            <div><b>01</b><span>Cores</span></div><div><b>02</b><span>Escudo</span></div><div><b>03</b><span>Nome</span></div>
+            <div><b>04</b><span>Número</span></div><div><b>05</b><span>Patrocinadores</span></div><div><b>06</b><span>Detalhes gráficos</span></div>
+          </div>
+          <div class="identity-board__shape" aria-hidden="true"><span></span><i></i><b>01</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="builder section" id="monte-seu-uniforme" data-configurator>
+      <div class="container">
+        <div class="section-heading section-heading--split">
+          <div><span class="eyebrow"><i></i> Composição</span><h2>MONTE SEU <em>UNIFORME</em></h2></div>
+          <p>Escolha as peças que combinam com o seu time.</p>
+        </div>
+        <div class="builder__frame">
+          <div class="builder__steps" aria-label="Etapas de composição">
+            <div class="builder__step"><span>01</span><p>Camisa</p></div><div class="builder__connector"></div><div class="builder__step"><span>02</span><p>Calção</p></div><div class="builder__connector"></div><div class="builder__step"><span>03</span><p>Meião opcional</p></div><div class="builder__connector"></div><div class="builder__step"><span>04</span><p>Quantidade</p></div>
+          </div>
+          <div class="builder__body">
+            <div class="builder__selects">
+              <label>Escolha a camisa<select name="shirt" data-builder-select="shirt">{shirts.map((product) => <option value={product.id}>{product.name} — {product.priceDisplay}</option>)}</select></label>
+              <label>Escolha o calção<select name="shorts" data-builder-select="shorts">{shorts.map((product) => <option value={product.id}>{product.name} — {product.priceDisplay}</option>)}</select></label>
+              <fieldset class="builder__optional">
+                <legend>Adicionar meião ao uniforme?</legend>
+                <div class="optional-choice" role="group" aria-label="Escolha opcional de meião">
+                  <button class="optional-choice__button" type="button" data-socks-toggle="yes" aria-pressed="false">Sim, adicionar meião</button>
+                  <button class="optional-choice__button is-active" type="button" data-socks-toggle="no" aria-pressed="true">Não, continuar sem meião</button>
+                </div>
+                <label class="builder__sock-select" data-sock-select-wrap hidden>Modelo de meião<select name="socks" data-builder-select="socks" disabled>{socks.map((product) => <option value={product.id}>{product.name} — {product.priceDisplay}</option>)}</select></label>
+              </fieldset>
+              <fieldset class="builder__shield-field" data-shield-group="shirt">
+                <legend>Escudo da camisa</legend>
+                <div class="shield-choice-grid" role="group" aria-label="Escolha o escudo da camisa">
+                  {shieldOptions.map((option) => <button class="shield-choice" type="button" data-shield-choice="shirt" data-shield-id={option.id} aria-pressed={option.id === 'sublimado' ? 'true' : 'false'}>
+                    <img src={option.image} alt="" loading="lazy" /><span>{option.name}</span><small>+ {option.price === 0 ? 'R$ 0,00' : `R$ ${option.price.toFixed(2).replace('.', ',')}`}/un.</small>
+                  </button>)}
+                </div>
+                <div class="vintage-shield-notice" data-vintage-notice hidden>
+                  <p>A camisa Vintage já vem com patch TPU 3D e não será cobrado nenhum valor adicional pelo patch.</p>
+                  <strong>Deseja trocar mesmo assim?</strong>
+                  <div class="optional-choice optional-choice--vintage" role="group" aria-label="Escolha sobre o patch TPU 3D da camisa Vintage">
+                    <button class="optional-choice__button is-active" type="button" data-vintage-toggle="keep" aria-pressed="true">Não, manter TPU 3D</button>
+                    <button class="optional-choice__button" type="button" data-vintage-toggle="change" aria-pressed="false">Sim, trocar</button>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="builder__shield-field" data-shield-group="shorts">
+                <legend>Escudo do calção</legend>
+                <div class="shield-choice-grid" role="group" aria-label="Escolha o escudo do calção">
+                  {shieldOptions.map((option) => <button class="shield-choice" type="button" data-shield-choice="shorts" data-shield-id={option.id} aria-pressed={option.id === 'sublimado' ? 'true' : 'false'}>
+                    <img src={option.image} alt="" loading="lazy" /><span>{option.name}</span><small>+ {option.price === 0 ? 'R$ 0,00' : `R$ ${option.price.toFixed(2).replace('.', ',')}`}/un.</small>
+                  </button>)}
+                </div>
+              </fieldset>
+              <div class="builder__quantity-field">
+                <label for="builder-quantity">Quantidade de uniformes</label>
+                <div class="quantity-control">
+                  <button type="button" data-quantity-decrease aria-label="Diminuir quantidade">−</button>
+                  <input id="builder-quantity" name="quantity" type="number" min="10" step="1" value="10" inputmode="numeric" data-builder-quantity aria-describedby="quantity-help" />
+                  <button type="button" data-quantity-increase aria-label="Aumentar quantidade">+</button>
+                </div>
+                <p id="quantity-help" class="quantity-help">Quantidade mínima do pedido: 10 uniformes.</p>
+              </div>
+            </div>
+            <aside class="builder__total">
+              <div class="builder__metric"><span>VALOR POR UNIFORME</span><strong data-builder-unit-total>R$ 80,80</strong></div>
+              <div class="builder__metric"><span>QUANTIDADE</span><strong data-builder-quantity-summary>10 UNIDADES</strong></div>
+              <div class="builder__metric builder__metric--total"><span>VALOR TOTAL</span><strong data-builder-total>R$ 808,00</strong></div>
+              <div class="builder__order-summary" data-builder-order-summary>
+                <div><strong>CAMISA</strong><span>Modelo: <b data-summary-shirt>Classic</b></span><span>Quantidade: <b data-summary-quantity>10</b></span><span>Escudo: <b data-summary-shirt-shield>Sublimado</b></span><span>Valor unitário: <b data-summary-shirt-unit>R$ 42,90</b></span><span>Adicional do escudo: <b data-summary-shirt-shield-add>R$ 0,00/un.</b></span><span>Subtotal: <b data-summary-shirt-subtotal>R$ 429,00</b></span></div>
+                <div><strong>CALÇÃO</strong><span>Modelo: <b data-summary-shorts>Calção de Jogo</b></span><span>Quantidade: <b data-summary-quantity>10</b></span><span>Escudo: <b data-summary-shorts-shield>Sublimado</b></span><span>Valor unitário: <b data-summary-shorts-unit>R$ 37,90</b></span><span>Adicional do escudo: <b data-summary-shorts-shield-add>R$ 0,00/un.</b></span><span>Subtotal: <b data-summary-shorts-subtotal>R$ 379,00</b></span></div>
+                <div><strong>MEIÃO</strong><span>Quantidade: <b data-summary-socks-quantity>0</b></span><span>Subtotal: <b data-summary-socks-subtotal>R$ 0,00</b></span></div>
+              </div>
+              <p data-builder-summary>Classic + Calção de Jogo</p>
+              <small>1 uniforme = camisa + calção + meião.</small>
+              <button class="button button--red button--full" type="button" data-builder-quote>Solicitar orçamento <span aria-hidden="true">↗</span></button>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="measurements section" id="medidas" hidden>
+      <div class="container measurements__grid">
+        <div><span class="eyebrow"><i></i> Escolha com segurança</span><h2>GUIA DE <em>MEDIDAS</em></h2><p>As medidas podem variar de acordo com a modelagem. Confira a tabela correspondente ao produto escolhido.</p></div>
+        <div class="availability-card">
+          <span class="availability-card__icon" aria-hidden="true">↔</span>
+          <h3>Tabelas oficiais em preparação</h3>
+          <p>Os valores e nomes das tabelas não foram fornecidos nos materiais recebidos. Escolha um modelo para consultar o estado da tabela correspondente.</p>
+          <div class="measurements__controls">
+            <label for="measurement-model">Modelo
+              <select id="measurement-model" data-measurement-select>{products.filter((product) => product.family === 'camisa' || product.family === 'calcao').map((product) => <option value={product.name}>{product.name}</option>)}</select>
+            </label>
+            <div class="measurements__table-wrap">
+              <table>
+                <thead><tr><th>Modelo selecionado</th><th>Tabela de medidas</th></tr></thead>
+                <tbody><tr><td data-measurement-model>Classic</td><td>Aguardando tabela oficial</td></tr></tbody>
+              </table>
+            </div>
+          </div>
+          <span class="availability-card__label">DADOS OFICIAIS PENDENTES</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="como-funciona">
+      <div class="container">
+        <div class="section-heading"><span class="eyebrow"><i></i> Uma jornada simples</span><h2>COMO <em>FUNCIONA</em></h2></div>
+        <div class="process-grid">
+          <article><span>01</span><h3>Escolha o modelo</h3><p>Explore as modelagens e encontre o ponto de partida para o seu uniforme.</p></article>
+          <article><span>02</span><h3>Envie sua ideia</h3><p>Conte sobre o time, projeto ou empresa que você quer representar.</p></article>
+          <article><span>03</span><h3>Definimos a personalização</h3><p>Organize os elementos visuais que farão parte da sua identidade.</p></article>
+          <article><span>04</span><h3>Solicite seu orçamento</h3><p>Converse com a Labella Sports para seguir com o seu pedido.</p></article>
+        </div>
+        <div class="process__delivery"><strong>INFORMAÇÕES DE ENTREGA</strong><span>15 dias úteis após o fechamento do pedido</span><span>Entregamos para todo o Brasil</span></div>
+      </div>
+    </section>
+
+    <section class="about-section" id="sobre">
+      <div class="container about-section__inner"><span class="about-section__number">01</span><div><span class="eyebrow eyebrow--light"><i></i> Institucional</span><h2>LABELLA<br /><em>SPORTS</em></h2></div><p>A Labella Sports desenvolve e confecciona uniformes esportivos personalizados para quem busca identidade, qualidade e uma apresentação profissional.</p></div>
+    </section>
+
+    <section class="conversion section" id="contato">
+      <div class="container conversion__inner">
+        <span class="eyebrow"><i></i> Vamos conversar</span>
+        <h2>VAMOS CRIAR O <em>UNIFORME</em><br />DO SEU TIME?</h2>
+        <p>Escolha seu modelo, envie sua ideia e fale com a Labella Sports.</p>
+        <div class="conversion__actions"><button class="button button--red" type="button" data-quote data-quote-message="Olá! Gostaria de solicitar um orçamento de uniformes personalizados com a Labella Sports.">Solicitar orçamento <span aria-hidden="true">↗</span></button><button class="button button--outline" type="button" data-quote data-quote-message="Olá! Gostaria de falar com a equipe da Labella Sports.">Falar no WhatsApp <span aria-hidden="true">↗</span></button></div>
+        <div class="contact-details">
+          <a href={contact.mapsUrl} target="_blank" rel="noreferrer"><strong>Endereço</strong><span>{contact.address}</span></a>
+          <a href={contact.phoneUrl}><strong>Telefone</strong><span>{contact.phoneDisplay}</span></a>
+          <a href={contact.emailUrl}><strong>E-mail</strong><span>{contact.email}</span></a>
+          <a href={contact.instagramUrl} target="_blank" rel="noreferrer"><strong>Instagram</strong><span>@labellasports</span></a>
+          <a class="button button--outline" href={contact.mapsUrl} target="_blank" rel="noreferrer">Como chegar <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="product-dialog" data-product-dialog aria-labelledby="product-dialog-title">
+    <button class="product-dialog__close" type="button" aria-label="Fechar detalhes do produto" data-modal-close>×</button>
+    <div data-product-dialog-content></div>
+  </dialog>
+  <script id="catalog-data" type="application/json" set:html={catalogJson}></script>
+  <script>import '../scripts/site';</script>
+  <Footer />
+</Layout>

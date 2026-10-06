@@ -1,0 +1,185 @@
+Adicione ao site da LABELA SPORTS uma nova seção chamada "OPÇÕES DE ESCUDO" e implemente a escolha de escudo dentro da seção "MONTE SEU PEDIDO".
+
+Use as imagens deste Google Drive:
+https://drive.google.com/drive/folders/1AxzmU9kYJf334dJObrUnEXJsTPU2Jj1s?usp=sharing
+
+Os arquivos correspondem às opções:
+- SUBLIMADO
+- BORDADO
+- TPU 3D
+
+Na seção "OPÇÕES DE ESCUDO", mostrar cada opção com sua respectiva foto e nome.
+
+Não alterar o design geral do site.
+
+==================================================
+MONTE SEU PEDIDO
+==================================================
+
+Criar DUAS caixas independentes para escolher o escudo:
+
+1. ESCUDO DA CAMISA
+2. ESCUDO DO CALÇÃO
+
+Cada uma deve ter as 3 opções:
+- Sublimado
+- Bordado
+- TPU 3D
+
+Mostrar a imagem de cada opção junto ao nome.
+
+==================================================
+VALORES
+==================================================
+
+SUBLIMADO:
++ R$ 0,00 por unidade
+
+BORDADO:
++ R$ 10,00 por unidade
+
+TPU 3D:
++ R$ 15,00 por unidade
+
+O acréscimo deve ser calculado automaticamente de acordo com a quantidade selecionada.
+
+Exemplo:
+10 camisas + Bordado = + R$ 100,00
+10 calções + Bordado = + R$ 100,00
+
+O valor total do pedido deve incluir esses acréscimos.
+
+==================================================
+REGRA ESPECIAL — CAMISA VINTAGE
+==================================================
+
+Quando o cliente selecionar a camisa VINTAGE:
+
+- selecionar automaticamente TPU 3D;
+- deixar TPU 3D selecionado por padrão;
+- não cobrar nenhum adicional pelo TPU 3D;
+- mostrar abaixo da escolha do escudo um aviso:
+
+"A camisa Vintage já vem com patch TPU 3D e não será cobrado nenhum valor adicional pelo patch."
+
+Logo abaixo, mostrar:
+
+"Deseja trocar mesmo assim?"
+
+Essa pergunta deve aparecer SOMENTE quando a camisa selecionada for VINTAGE.
+
+Adicionar duas opções:
+
+"SIM, TROCAR"
+"NÃO, MANTER TPU 3D"
+
+Se escolher "NÃO, MANTER TPU 3D":
+manter TPU 3D e valor adicional R$ 0,00.
+
+Se escolher "SIM, TROCAR":
+permitir selecionar outra opção de escudo e aplicar normalmente o valor correspondente.
+
+Exemplo:
+Vintage + Sublimado = R$ 0,00 adicional
+Vintage + Bordado = + R$ 10,00 por unidade
+Vintage + TPU 3D = R$ 0,00 adicional
+
+==================================================
+OUTRAS CAMISAS
+==================================================
+
+Para todas as outras camisas:
+
+- deixar SUBLIMADO selecionado por padrão;
+- aplicar os acréscimos normalmente.
+
+==================================================
+CALÇÃO
+==================================================
+
+Para todos os calções:
+
+- deixar SUBLIMADO selecionado por padrão;
+- permitir trocar para Bordado ou TPU 3D;
+- aplicar os acréscimos normalmente.
+
+Não aplicar a regra especial da Vintage ao calção.
+
+==================================================
+RESUMO DO PEDIDO
+==================================================
+
+O resumo do "Monte seu Pedido" deve mostrar claramente:
+
+CAMISA
+Modelo:
+Quantidade:
+Escudo:
+Valor unitário:
+Adicional do escudo:
+Subtotal:
+
+CALÇÃO
+Modelo:
+Quantidade:
+Escudo:
+Valor unitário:
+Adicional do escudo:
+Subtotal:
+
+MEIÃO
+Quantidade:
+Subtotal:
+
+VALOR TOTAL
+
+O valor total deve considerar automaticamente os adicionais de escudo.
+
+==================================================
+WHATSAPP
+==================================================
+
+O botão "SOLICITAR ORÇAMENTO" do "Monte seu Pedido" também deve incluir no WhatsApp:
+
+- modelo da camisa;
+- quantidade;
+- escudo escolhido da camisa;
+- valor adicional do escudo da camisa;
+- modelo do calção;
+- quantidade;
+- escudo escolhido do calção;
+- valor adicional do escudo do calção;
+- meião;
+- valor total final.
+
+Exemplo:
+
+CAMISA: POLO
+Quantidade: 10
+Escudo: BORDADO
+Adicional: R$ 10,00/un.
+Subtotal do escudo: R$ 100,00
+
+CALÇÃO: CALÇÃO DE JOGO
+Quantidade: 10
+Escudo: SUBLIMADO
+Adicional: R$ 0,00
+
+TOTAL DO PEDIDO: R$ XXX,XX
+
+==================================================
+IMPORTANTE
+==================================================
+
+Usar as imagens reais do Google Drive.
+
+Não gerar imagens novas.
+
+Não trocar as imagens entre opções.
+
+Manter o restante do site exatamente como está.
+
+As duas escolhas de escudo devem funcionar de forma independente:
+uma para a CAMISA e outra para o CALÇÃO.
+
+Testar o cálculo do valor e o envio para o WhatsApp.

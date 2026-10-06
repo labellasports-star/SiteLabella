@@ -1,0 +1,30 @@
+---
+import '../styles/global.css';
+
+const {
+  title = 'Labella Sports | Uniformes Esportivos Personalizados',
+  description = 'Uniformes esportivos personalizados com a identidade do seu time. Confira modelos, preços e solicite seu orçamento com a Labella Sports.'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href="/images/brand/logotipo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+    <a class="floating-whatsapp" href="https://wa.me/5511950372932?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20Labella%20Sports." target="_blank" rel="noreferrer" aria-label="Falar com a Labella Sports pelo WhatsApp" data-tooltip="Falar no WhatsApp">
+      <img src="/images/whatsapp-button.png" alt="WhatsApp" width="56" height="56" />
+    </a>
+    <div class="site-toast" id="site-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

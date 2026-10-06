@@ -1,0 +1,138 @@
+Faça as seguintes alterações na página “MONTE SEU UNIFORME”, preservando o layout, identidade visual, estrutura e estilo atual do site.
+
+1. TRANSFORMAR O MEIÃO EM ITEM OPCIONAL
+
+Atualmente o fluxo exige que o cliente escolha:
+- Camisa
+- Calção
+- Meião
+
+Altere o funcionamento para que o MEIÃO seja opcional.
+
+O fluxo deve funcionar assim:
+
+01 — CAMISA
+O cliente escolhe a camisa.
+
+02 — CALÇÃO
+O cliente escolhe o calção.
+
+03 — MEIÃO (OPCIONAL)
+O cliente decide se deseja adicionar o meião ao uniforme.
+
+Na etapa do meião, deixe isso visualmente claro com uma opção como:
+
+“Adicionar meião ao uniforme?”
+
+[ SIM, ADICIONAR MEIÃO ]   [ NÃO, CONTINUAR SEM MEIÃO ]
+
+Ou utilize um controle visual equivalente, mantendo o design minimalista e profissional.
+
+REGRAS:
+
+- O cliente deve conseguir montar o uniforme somente com CAMISA + CALÇÃO.
+- O cliente também pode escolher CAMISA + CALÇÃO + MEIÃO.
+- O meião não pode ser obrigatório.
+- Caso o cliente escolha “Não adicionar”, nenhum modelo de meião deve ser exigido.
+- O preço deve ser recalculado automaticamente.
+- Se o meião não for selecionado, o valor do meião não deve ser incluído no valor total.
+- Se o cliente decidir adicionar o meião, o valor correspondente deve ser acrescentado automaticamente.
+- A quantidade mínima continua sendo de 10 uniformes.
+- A quantidade representa sempre o número de uniformes completos montados.
+- O sistema deve continuar multiplicando o valor unitário pela quantidade selecionada.
+
+EXEMPLO:
+
+Camisa: R$ 93,90
+Calção: R$ 31,90
+Meião: R$ 26,90
+
+SEM MEIÃO:
+R$ 125,80 por uniforme
+
+COM MEIÃO:
+R$ 152,70 por uniforme
+
+Para 10 unidades:
+
+SEM MEIÃO:
+10 × R$ 125,80 = R$ 1.258,00
+
+COM MEIÃO:
+10 × R$ 152,70 = R$ 1.527,00
+
+O resumo lateral deve atualizar automaticamente conforme o cliente adicionar ou remover o meião.
+
+Exemplo sem meião:
+
+VALOR POR UNIFORME
+R$ 125,80
+
+QUANTIDADE
+10 UNIDADES
+
+VALOR TOTAL
+R$ 1.258,00
+
+Exemplo com meião:
+
+VALOR POR UNIFORME
+R$ 152,70
+
+QUANTIDADE
+10 UNIDADES
+
+VALOR TOTAL
+R$ 1.527,00
+
+No resumo, também deixe claro quais itens fazem parte da composição escolhida.
+
+2. ALTERAR TODAS AS FONTES DO SITE PARA MONTSERRAT
+
+Substitua a família tipográfica atualmente utilizada em TODO o site pela família:
+
+Montserrat
+
+Aplique Montserrat globalmente em:
+
+- Títulos
+- Subtítulos
+- Textos
+- Menus
+- Botões
+- Campos de formulário
+- Selects
+- Labels
+- Valores
+- Preços
+- Navegação
+- Mensagens de aviso
+- Resumos
+- Rodapé
+- Todos os demais componentes da interface
+
+Não deixe nenhuma área utilizando a fonte antiga.
+
+Utilize corretamente os diferentes pesos da Montserrat conforme a hierarquia visual:
+
+- Regular / 400 para textos comuns
+- Medium / 500 para informações secundárias
+- SemiBold / 600 para destaques
+- Bold / 700 para títulos e informações importantes
+- ExtraBold / 800 quando necessário para grandes títulos e valores
+
+A tipografia deve continuar com aparência moderna, esportiva, forte e profissional.
+
+IMPORTANTE:
+
+- Não altere desnecessariamente o layout existente.
+- Preserve a identidade visual atual em preto, branco e vermelho.
+- Preserve o estilo minimalista e profissional.
+- Mantenha o funcionamento atual da seleção de camisa, calção e quantidade.
+- A quantidade mínima continua sendo 10 uniformes.
+- O meião passa a ser o único item opcional.
+- Garanta que todos os cálculos sejam atualizados em tempo real.
+- Garanta que o botão “SOLICITAR ORÇAMENTO” funcione corretamente com ou sem meião.
+- Ao solicitar o orçamento, informe corretamente se o cliente escolheu o meião ou não.
+- A implementação deve ser responsiva em desktop e celular.
+- Faça a alteração de forma consistente em todo o projeto, sem deixar componentes com a fonte antiga.

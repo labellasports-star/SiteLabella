@@ -1,0 +1,30 @@
+---
+const isHome = Astro.url.pathname === '/';
+const navItems = [
+  ['Início', '#inicio'],
+  ['Modelos', '#modelos'],
+  ['Produtos', '#produtos'],
+  ['Como funciona', '#como-funciona'],
+  ['Sobre', '#sobre'],
+  ['Contato', '#contato']
+];
+---
+
+<header class="site-header" data-header>
+  <div class="container header__inner">
+    <a class="brand brand--header" href={isHome ? '#inicio' : '/'} aria-label="Labella Sports — página inicial">
+      <img class="brand__logo" src="/images/brand/logotipo.png" alt="Labella Sports" width="5872" height="5875" />
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-nav" aria-expanded="false" data-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal" data-menu>
+      {navItems.map(([label, href]) => <a href={isHome ? href : `/${href}`}>{label}</a>)}
+      <button class="button button--header button--compact" type="button" data-quote data-quote-message="Olá! Vim pelo site da Labella Sports e gostaria de solicitar um orçamento de uniformes esportivos personalizados.">Solicitar orçamento</button>
+    </nav>
+
+    <button class="button button--header header__quote" type="button" data-quote data-quote-message="Olá! Vim pelo site da Labella Sports e gostaria de solicitar um orçamento de uniformes esportivos personalizados.">Solicitar orçamento</button>
+  </div>
+</header>
