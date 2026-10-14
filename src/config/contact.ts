@@ -5,7 +5,8 @@ export const contact = {
   phoneUrl: 'tel:+5511950372932',
   email: 'labellasports@gmail.com',
   emailUrl: 'mailto:labellasports@gmail.com',
-  instagramUrl: 'https://www.instagram.com/labellasports/',
+  instagramUrl: 'https://www.instagram.com/labellasports_/',
+  instagramDisplay: '@labellasports_',
   address: 'R. Balneário São José, 1020 - Balneário São José',
   mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=R.%20Balne%C3%A1rio%20S%C3%A3o%20Jos%C3%A9%2C%201020%20-%20Balne%C3%A1rio%20S%C3%A3o%20Jos%C3%A9'
 } as const;

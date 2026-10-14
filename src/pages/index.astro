@@ -229,7 +229,7 @@ const catalogJson = JSON.stringify(products).replace(/</g, '\\u003c');
           <a href={contact.mapsUrl} target="_blank" rel="noreferrer"><strong>Endereço</strong><span>{contact.address}</span></a>
           <a href={contact.phoneUrl}><strong>Telefone</strong><span>{contact.phoneDisplay}</span></a>
           <a href={contact.emailUrl}><strong>E-mail</strong><span>{contact.email}</span></a>
-          <a href={contact.instagramUrl} target="_blank" rel="noreferrer"><strong>Instagram</strong><span>@labellasports</span></a>
+          <a href={contact.instagramUrl} target="_blank" rel="noreferrer"><strong>Instagram</strong><span>{contact.instagramDisplay}</span></a>
           <a class="button button--outline" href={contact.mapsUrl} target="_blank" rel="noreferrer">Como chegar <span aria-hidden="true">↗</span></a>
         </div>
       </div>
